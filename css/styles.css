@@ -1,8 +1,23 @@
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
-/* a {
-  text-decoration: none;
-} */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+
 :root {
   --iris: #4d5ae5;
   --navyblue: #2e2f42;
@@ -15,8 +30,7 @@ font-family: 'Roboto', sans-serif; */
 ul {
   list-style-type: none;
 }
-/* button:hover,
-button:focus, */
+
 a:hover,
 a:focus {
   color: var(--ocean);
@@ -30,8 +44,16 @@ body {
   color: #434455;
   background-color: var(--white);
 }
-/* <!-- PAGE HEADER --> */
-/* logotype */
+/* <!============ PAGE HEADER ================> */
+
+.header {
+  display: flex;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  height: 72px;
+}
 .main-logotype {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
@@ -41,18 +63,33 @@ body {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-left: 156px;
+  margin-right: 76px;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
 }
 .main-logotype-part-two {
   color: var(--navyblue);
 }
+.container {
+  max-width: 1440px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-/* nav */
 .nav-page {
   color: var(--navyblue);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  display: flex;
+  width: 589px;
+  column-gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-page-link {
   color: var(--navyblue);
@@ -63,6 +100,15 @@ body {
 }
 .addres-contacts {
   font-style: normal;
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.address-list {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+  margin-right: 156px;
 }
 .address-list-link {
   color: var(--slate);
@@ -74,8 +120,14 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* <!-- HERO SECTION --> */
-
+/* <!============= HERO SECTION ==============> */
+.hero-container {
+  width: 1440px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  gap:48px;
+}
 .hero-section {
   background-color: var(--navyblue);
 }
@@ -86,6 +138,12 @@ body {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
+  width: 496px;
+  height: 120px;
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+ 
 }
 .button-order {
   background-color: var(--iris);
@@ -94,14 +152,24 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
-}
+  margin-right: auto;
+  margin-left: auto;
+  width: 169px;
+  height: 56px;
+  /* padding: 16px 32px; */
+  border: 0;
+  border-radius: 4px;
+  /* display: inline-flex; */
+  /* display: inline-flex;
+  align-items: flex-start;
+} */
 .button-order:hover,
 .button-order:focus {
   background-color: var(--ocean);
 }
 
-/* <!-- SKILLS SECTION --> */
-/* #2e2f42 */
+/* <!============= SKILLS SECTION ================> */
+
 .skill-section-item-title {
   color: #2e2f42;
   font-size: 20px;
@@ -117,7 +185,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* OUR TEAM SECTION */
+/* =============OUR TEAM SECTION============ */
+
 .team-section {
   background-color: var(--cloud);
 }
@@ -137,7 +206,7 @@ body {
 .team-section-list {
   background-color: #ffffff;
 }
-/* chenged backround-color */
+
 .team-section-list-title {
   color: var(--navyblue);
   text-align: center;
@@ -146,7 +215,6 @@ body {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
 }
-/* background-color: #ffffff; */
 
 .team-section-position {
   color: var(--slate);
@@ -156,7 +224,8 @@ body {
   letter-spacing: 0.02em;
   /* del background color */
 }
-/* <!-- Portfolio Section --> */
+/* <!============= Portfolio Section ==============> */
+
 .portfolio-section {
   background-color: var(--white);
 }
@@ -184,7 +253,8 @@ body {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-/*    <!-- FOOTER SECTION --> */
+/*    <!================ FOOTER SECTION =================> */
+
 .footer-logotype {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
