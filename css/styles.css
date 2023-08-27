@@ -1,0 +1,211 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+/* a {
+  text-decoration: none;
+} */
+:root {
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --ocean: #404bbf;
+  --white: #fff;
+  --slate: #434455;
+  --cloud: #f4f4fd;
+}
+
+ul {
+  list-style-type: none;
+}
+/* button:hover,
+button:focus, */
+a:hover,
+a:focus {
+  color: var(--ocean);
+}
+button {
+  cursor: pointer;
+}
+/* body */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: var(--white);
+}
+/* <!-- PAGE HEADER --> */
+/* logotype */
+.main-logotype {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.main-logotype-part-two {
+  color: var(--navyblue);
+}
+
+/* nav */
+.nav-page {
+  color: var(--navyblue);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+.nav-page-link {
+  color: var(--navyblue);
+  text-decoration: none;
+}
+.link:active {
+  color: var(--ocean);
+}
+.addres-contacts {
+  font-style: normal;
+}
+.address-list-link {
+  color: var(--slate);
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+/* <!-- HERO SECTION --> */
+
+.hero-section {
+  background-color: var(--navyblue);
+}
+.hero-section-title {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
+}
+.button-order {
+  background-color: var(--iris);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+}
+.button-order:hover,
+.button-order:focus {
+  background-color: var(--ocean);
+}
+
+/* <!-- SKILLS SECTION --> */
+/* #2e2f42 */
+.skill-section-item-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+.skill-section-text {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+/* OUR TEAM SECTION */
+.team-section {
+  background-color: var(--cloud);
+}
+.team-section-list-item {
+  background-color: #ffffff;
+}
+.team-section-title {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  /* del background color */
+}
+.team-section-list {
+  background-color: #ffffff;
+}
+/* chenged backround-color */
+.team-section-list-title {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+/* background-color: #ffffff; */
+
+.team-section-position {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  /* del background color */
+}
+/* <!-- Portfolio Section --> */
+.portfolio-section {
+  background-color: var(--white);
+}
+.portfolio-section-title {
+  color: var(--slate);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.portfolio-section-list-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+
+.portfolio-section-list-services {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+/*    <!-- FOOTER SECTION --> */
+.footer-logotype {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-logotype-part-two {
+  color: #f4f4fd;
+}
+
+.footer {
+  background-color: var(--navyblue);
+}
+.footer-text {
+  color: var(--cloud);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
