@@ -192,9 +192,7 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* .skill-section-item {
-  
-} */
+
 .skill-section {
   padding: 120px 0;
 }
@@ -205,9 +203,6 @@ body {
 .skill-section-list {
   display: flex;
   gap: 24px;
-
-  /* padding-left: 156px;
-  padding-right: 156px; */
 }
 .skill-section-item {
   width: calc((100% - 72px) / 4);
@@ -218,7 +213,6 @@ body {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
-  /* padding-bottom: 24px; */
   margin-bottom: 8px;
 }
 .skill-section-text {
@@ -227,7 +221,6 @@ body {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  /* width: calc((100% - 72px) / 4); */
 }
 
 /* =============OUR TEAM SECTION (3 section)============ */
