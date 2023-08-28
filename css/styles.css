@@ -362,7 +362,6 @@ body {
   flex-shrink: 0;
 }
 .footer-logotype {
-  display: inline-block;
   color: var(--iris);
   font-family: "Raleway", sans-serif;
   text-decoration: none;
@@ -373,7 +372,9 @@ body {
   text-transform: uppercase;
   margin-bottom: 16px;
 }
-
+.footer-logotype {
+  display: inline-block;
+}
 .footer-logotype-part-two {
   color: #f4f4fd;
 }
