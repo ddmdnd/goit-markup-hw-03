@@ -358,7 +358,6 @@ body {
 }
 .footer-container {
   display: flex;
-  /* display: inline-block; */
   flex-direction: column;
   flex-shrink: 0;
 }
