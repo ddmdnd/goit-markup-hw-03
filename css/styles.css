@@ -122,7 +122,8 @@ body {
   /* width: calc((100%-40px) / 2); */
 }
 
-/* <!============= HERO SECTION ==============> */
+/* <!============= HERO SECTION (1 section) ==============> */
+
 .hero-container {
   width: 1440px;
   height: 600px;
@@ -177,7 +178,8 @@ body {
   background-color: var(--ocean);
 }
 
-/* <!============= SKILLS SECTION ================> */
+/* <!============= SKILLS SECTION (2 section) ================> */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -223,7 +225,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* =============OUR TEAM SECTION============ */
+/* =============OUR TEAM SECTION (3 section)============ */
+
 .team-section-container {
   display: flex;
   flex-direction: column;
@@ -231,12 +234,12 @@ body {
 .team-section-list {
   /* background-color: #ffffff; */
   display: flex;
-  width: calc((100%-3) / 4);
+  /* width: calc((100%-3) / 4); */
   padding-top: 72px;
   padding-bottom: 120px;
   margin-left: auto;
   margin-right: auto;
-  gap: 40px;
+  gap: px;
 }
 .team-section {
   background-color: var(--cloud);
