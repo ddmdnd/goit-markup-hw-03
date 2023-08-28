@@ -386,4 +386,5 @@ body {
 }
 .footer-list-item {
   width: 264px;
+  display: inline-block;
 }
