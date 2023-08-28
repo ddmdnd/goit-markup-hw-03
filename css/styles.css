@@ -17,6 +17,9 @@ ol {
 img {
   display: block;
 }
+a {
+  display: inline;
+}
 
 :root {
   --iris: #4d5ae5;
