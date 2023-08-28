@@ -209,6 +209,9 @@ body {
   /* padding-left: 156px;
   padding-right: 156px; */
 }
+.skill-section-item {
+  width: calc((100% - 72px) / 4);
+}
 .skill-section-item-title {
   color: #2e2f42;
   font-size: 20px;
@@ -216,6 +219,7 @@ body {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
   padding-bottom: 24px;
+  margin-bottom: 8px;
 }
 .skill-section-text {
   color: var(--slate, #434455);
