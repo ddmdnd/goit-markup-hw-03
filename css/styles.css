@@ -204,7 +204,7 @@ body {
 }
 .skill-section-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 
   /* padding-left: 156px;
   padding-right: 156px; */
