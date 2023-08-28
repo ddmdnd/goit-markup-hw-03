@@ -356,7 +356,7 @@ body {
   padding: 100px 0;
   background-color: var(--navyblue);
 }
-.footer-list {
+.footer-container {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
@@ -385,7 +385,41 @@ body {
   max-width: 264px;
   /* width: 264px; */
 }
+
+/* .main-footer {
+  padding: 100px 0;
+  background-color: var(--navyblue);
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.footer-logotype {
+  display: inline-block;
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.footer-logotype-part-two {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: var(--cloud);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; 
+  letter-spacing: 0.02em;
+  max-width: 264px;
+
+}
 .footer-list-item {
   width: 264px;
   display: inline-block;
-}
+} */
