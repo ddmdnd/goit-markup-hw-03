@@ -50,6 +50,9 @@ body {
   display: flex;
   border-bottom: 1px solid #e7e9fc;
 }
+.header-container {
+  display: flex;
+}
 .main-container {
   display: flex;
   align-items: center;
@@ -74,12 +77,10 @@ body {
   text-transform: uppercase;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
-  margin-left: 76px;
   margin-right: 76px;
 }
 .main-logotype-part-two {
   color: var(--navyblue);
-  padding-right: 76px;
 }
 
 .nav-page {
@@ -89,14 +90,12 @@ body {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   display: flex;
-  /* gap: 40px; */
   gap: 40px;
-  padding-top: 24px 0;
 }
 .nav-page-link {
   color: var(--navyblue);
   text-decoration: none;
-  width: calc((100%-80px) / 3);
+  padding-top: 24px 0;
 }
 .link:active {
   color: var(--ocean);
@@ -104,12 +103,12 @@ body {
 .address-contacts {
   font-style: normal;
   display: flex;
-  padding-left: 232px;
-  gap: 40px;
+  padding-left: 332px;
 }
 .address-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .address-list-link {
   color: var(--slate);
