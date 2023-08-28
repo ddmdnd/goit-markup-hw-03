@@ -219,7 +219,7 @@ body {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
   /* padding-bottom: 24px; */
-  margin-bottom: 24px;
+  margin-bottom: 8px;
 }
 .skill-section-text {
   color: var(--slate, #434455);
