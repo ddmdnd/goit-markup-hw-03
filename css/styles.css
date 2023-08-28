@@ -46,8 +46,9 @@ body {
 }
 /* <!============ PAGE HEADER ================> */
 
-.header {
+.page-header {
   display: flex;
+  border-bottom: 1px solid #e7e9fc;
 }
 .main-container {
   display: flex;
@@ -73,6 +74,8 @@ body {
   text-transform: uppercase;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
+  margin-left: 76px;
+  margin-right: 76px;
 }
 .main-logotype-part-two {
   color: var(--navyblue);
@@ -87,9 +90,8 @@ body {
   letter-spacing: 0.02em;
   display: flex;
   /* gap: 40px; */
-  column-gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  gap: 40px;
+  padding-top: 24px 0;
 }
 .nav-page-link {
   color: var(--navyblue);
@@ -103,11 +105,11 @@ body {
   font-style: normal;
   display: flex;
   padding-left: 232px;
+  gap: 40px;
 }
 .address-list {
   display: flex;
   align-items: center;
-  column-gap: 40px;
 }
 .address-list-link {
   color: var(--slate);
