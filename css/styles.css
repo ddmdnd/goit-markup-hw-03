@@ -218,8 +218,8 @@ body {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
-  padding-bottom: 24px;
-  margin-bottom: 8px;
+  /* padding-bottom: 24px; */
+  margin-bottom: 24px;
 }
 .skill-section-text {
   color: var(--slate, #434455);
@@ -227,6 +227,7 @@ body {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  /* width: calc((100% - 72px) / 4); */
 }
 
 /* =============OUR TEAM SECTION (3 section)============ */
