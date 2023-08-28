@@ -280,10 +280,16 @@ body {
   text-align: center;
 }
 /* <!============= Portfolio Section (4 section)==============> */
-.porfolio-card {
-  background-color: var(--white);
+
+.portfolio-section {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.porfolio-card {
+  background-color: var(--white);
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
   width: 360px;
 }
 .porfolio-card {
@@ -346,9 +352,11 @@ body {
 /*    <!================ FOOTER SECTION =================> */
 
 .main-footer {
-  margin-top: 120px;
+  /* margin-top: 120px; */
   padding: 100px 0;
   background-color: var(--navyblue);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .footer-container {
   display: flex;
@@ -369,6 +377,7 @@ body {
 }
 .footer-logotype-part-two {
   color: #f4f4fd;
+  display: inline-block;
 }
 
 .footer-text {
