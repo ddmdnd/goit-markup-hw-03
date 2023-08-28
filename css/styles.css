@@ -297,6 +297,8 @@ body {
   flex-direction: column;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
+  /* border-top: none; */
 }
 .porfolio-section-container {
   display: flex;
@@ -354,11 +356,10 @@ body {
 .main-footer {
   padding: 100px 0;
   background-color: var(--navyblue);
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .footer-container {
   display: flex;
+  /* display: inline-block; */
   flex-direction: column;
   flex-shrink: 0;
 }
@@ -368,7 +369,7 @@ body {
   text-decoration: none;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17; /* 116.667% */
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
