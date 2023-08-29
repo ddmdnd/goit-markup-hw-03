@@ -357,7 +357,6 @@ body {
   background-color: var(--navyblue);
 }
 .footer-container {
-  display: flex;
   flex-direction: column;
   flex-shrink: 0;
 }
